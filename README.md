@@ -5,9 +5,10 @@
 standardResults.xml generate by Jenkins performance plugin is not hanlding double-byte characters well after jenkins migration.
 There is no such a problem before Jenkins migration.
 
-Jenkins and plugin version:
-Jenkins version: 2.303.1
-Performance plugin: 3.17 ~ 3.20
+Jenkins and plugin versions:
+- Jenkins version: 2.303.1
+- Performance plugin: 3.17 ~ 3.20
+
 Tested env:
 - Jenkins docker image
 - Linux server on CentOS 7

@@ -44,7 +44,7 @@ pipeline {
                 script {
                     sh 'rm -rf ./*'
                     git branch: 'master',
-                      url: 'https://github.com/bryanPFLiu/px_test.git'
+                      url: 'https://github.com/pofengliu/px_test.git'
                     sh 'git clean -fdx'
                 }
             }
